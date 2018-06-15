@@ -8,7 +8,7 @@ body{
 }
 .login-box{
     width: 320px;
-    height: 420px;
+    height: 460px;
     background: rgba(0,0,0,0.5);
     color: #fff;
     top: 50%;
@@ -217,6 +217,10 @@ h1{
 /*    background: #fff;*/
 
 }
+<<<<<<< HEAD
 =======
 }
 >>>>>>> 2b363d6497b3c1ca472dee8f26b0d2fe6fa8f0b7
+=======
+
+>>>>>>> ft-create-forgot-password-page-#158386172
