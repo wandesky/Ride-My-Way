@@ -17,4 +17,6 @@ The app makes it possible for drivers to create ride offers for passengers to jo
     - A page that drivers can use to view and accept/reject rides they have created
     - A feature for users to view number of rides taken/given and list all rides 
 
-Just updated the file structure
+## Want to have a look at the work done so far
+You can have a preview of the work done using the link below;
+    https://wandesky.github.io/Ride-My-Way/UI
