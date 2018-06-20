@@ -20,3 +20,37 @@ The app makes it possible for drivers to create ride offers for passengers to jo
 ## Want to have a look at the work done so far
 You can have a preview of the work done using the link below;
     https://wandesky.github.io/Ride-My-Way/UI
+
+#The API (rmw-v1)
+The API is python based developed using Flask. It is used to keep track the rides created and taken.
+The API makes it possible for services to connect to the required endpoints when listing all available rides,
+getting a specific ride, creating a ride offer and requesting to join a ride.
+
+#Specifications
+
+| EndPoint | Functionality |
+| ------------- | ------------- |
+| GET /rides | Fetch all ride offers  |
+| GET /rides/<rideId> | Fetch a single ride offer  |
+| POST /rides | Create a ride offer |
+| POST /rides/<rideId>/requests | Make a request to join a ride |
+|  |  |
+
+
+#Installation
+
+
+   i. Clone or download the repository
+      `git clone https://github.com/wandesky/Ride-My-Way.git`
+      `git checkout api-v1`
+
+   ii. Create a virtual environment
+      `virtualenv rmw-v1`
+      In windows `mkvirtualenv rmw-v1`
+
+   iii. Activate the environment 
+      `source rmw-v1\bin\activate`
+      in windows use `rmw-v1/Scripts/activate`
+
+   iv. Install the environmmental requirements from the file within the virtual venv
+       `pip install -r requirements.txt`
