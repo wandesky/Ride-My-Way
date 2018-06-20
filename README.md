@@ -26,7 +26,7 @@ The API is python based developed using Flask. It is used to keep track the ride
 The API makes it possible for services to connect to the required endpoints when listing all available rides,
 getting a specific ride, creating a ride offer and requesting to join a ride.
 
-#Specifications
+# Specifications
 
 | EndPoint | Functionality |
 | ------------- | ------------- |
@@ -37,7 +37,7 @@ getting a specific ride, creating a ride offer and requesting to join a ride.
 |  |  |
 
 
-#Installation
+# Installation
 
 
    i. Clone or download the repository
