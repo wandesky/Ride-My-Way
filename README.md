@@ -33,7 +33,7 @@ getting a specific ride, creating a ride offer and requesting to join a ride.
 | GET /rides | Fetch all ride offers  |
 | GET /rides/<rideId> | Fetch a single ride offer  |
 | POST /rides | Create a ride offer |
-| POST /rides/ <rideId> /requests | Make a request to join a ride |
+| POST /rides/< rideId >/requests | Make a request to join a ride |
 |  |  |
 
 
