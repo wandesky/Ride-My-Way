@@ -17,5 +17,6 @@ def returnOne(rideID):
     results = [ride for ride in rides if ride['rideID'] == rideID]
     return jsonify({'ride':results[0]})
 
-if __name__ == '__main__':
-    app.run(develop=True, port=8080)
+if __name__ == "__main__":
+    app.run()
+    #develop=True, port=8080
