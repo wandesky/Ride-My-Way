@@ -8,6 +8,14 @@ rides = [{'driverID' : '001', 'car-route':'routeA','rideID':'ride001'}, {'driver
 def test():
     return jsonify({'message': "I should be displaying the homepage here"})
 
-@app.route('/rides', methods = ['GET'])
+@app.route('/rides', methods= ['GET'])
 def returnAll():
     return jsonify({'rides': rides})
+
+@app.route('/rides/<string:rideID>', methods=['GET'])
+def returnOne(rideID):
+    results = [ride for ride in rides if ride['rideID'] == rideID]
+    return jsonify({'ride':results[0]})
+
+if __name__ == '__main__':
+    app.run(develop=True, port=8080)
