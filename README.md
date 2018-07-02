@@ -19,7 +19,7 @@ The app makes it possible for drivers to create ride offers for passengers to jo
 
 ## Want to have a look at the work done so far
 You can have a preview of the work done using the link below;
-    https://wandesky.github.io/Ride-My-Way/UI
+    https://wandesky.github.io/Ride-My-Way
 
 #The API (rmw-v1)
 The API is python based developed using Flask. It is used to keep track the rides created and taken.
