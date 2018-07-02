@@ -3,7 +3,7 @@ body{
     padding: 0;
     background: url(image.jpg);
     background-size: cover;
-    background-position: center;
+    /*background-position: center;*/
     font-family: sans-serif;
 }
 .login-box{
@@ -75,7 +75,6 @@ h1{
 .login-box a:hover
 {
     color:#39dc79;
-<<<<<<< HEAD
 }
 
 
@@ -217,10 +216,4 @@ h1{
 /*    background: #fff;*/
 
 }
-<<<<<<< HEAD
-=======
-}
->>>>>>> 2b363d6497b3c1ca472dee8f26b0d2fe6fa8f0b7
-=======
 
->>>>>>> ft-create-forgot-password-page-#158386172
